@@ -1,0 +1,51 @@
+.row {
+  display: flex;
+  align-items: center;
+
+  padding-block: 0.75rem;
+  padding-inline: 1rem;
+
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-control);
+}
+
+.amount {
+  flex: 1;
+  color: var(--color-text-primary);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.divider {
+  inline-size: 1px;
+  block-size: 1.5rem;
+  margin-inline: 0.75rem;
+  background-color: var(--color-border);
+}
+
+.currency-button {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+
+  padding: 0;
+
+  background: none;
+  border: none;
+
+  color: var(--color-text-primary);
+  font-size: 1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: 2px solid var(--color-accent-blue);
+    outline-offset: 2px;
+  }
+}
+
+.chevron {
+  color: var(--color-text-secondary);
+}

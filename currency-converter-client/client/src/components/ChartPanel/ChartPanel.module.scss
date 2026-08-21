@@ -1,0 +1,10 @@
+.panel {
+  flex: 1 1 20rem;
+  min-inline-size: 0;
+}
+
+.chart {
+  inline-size: 100%;
+  block-size: auto;
+  border-radius: var(--radius-control);
+}

@@ -1,0 +1,56 @@
+:root {
+  --color-page-bg: #eef2fb;
+  --color-card-bg: #fff;
+  --color-text-primary: #1c1d21;
+  --color-text-secondary: #9a9ea6;
+  --color-border: #e6e8ee;
+  --color-accent-blue: #4d7cfe;
+  --color-accent-blue-dark: #3f68e0;
+  --color-accent-blue-pale: #e3ebff;
+  --color-accent-red: #ef5350;
+  --color-accent-red-dark: #d9433f;
+  --color-chip-neutral-bg: #eef0f4;
+  --color-chip-neutral-text: #6b6f76;
+  --font-family-base: 'Inter', -apple-system, blinkmacsystemfont, 'Segoe UI', sans-serif;
+  --radius-control: 0.75rem;
+  --radius-pill: 999px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  block-size: 100%;
+}
+
+body {
+  margin: 0;
+
+  background-color: var(--color-page-bg);
+
+  color: var(--color-text-primary);
+  font-family: var(--font-family-base);
+
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  min-block-size: 100vh;
+  padding-block: 3rem;
+  padding-inline: 1rem;
+}
+
+button {
+  font-family: inherit;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
