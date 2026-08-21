@@ -1,0 +1,33 @@
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-block-end: 1.25rem;
+}
+
+.tab {
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+
+  background-color: var(--color-chip-neutral-bg);
+  border: none;
+  border-radius: var(--radius-pill);
+
+  color: var(--color-chip-neutral-text);
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  transition: background-color 0.15s ease;
+
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: 2px solid var(--color-accent-blue);
+    outline-offset: 2px;
+  }
+}
+
+.active {
+  background-color: var(--color-accent-blue);
+  color: white;
+}

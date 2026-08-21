@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+
+  inline-size: 100%;
+  max-inline-size: 64rem;
+  padding: 2.75rem;
+
+  background-color: var(--color-card-bg);
+  border-radius: 1.5rem;
+  box-shadow: 0 1rem 2rem rgb(0 0 0 / 8%);
+}
+
+.left-column {
+  flex: 1 1 20rem;
+  min-inline-size: 0;
+}
+
+.right-column {
+  flex: 1 1 20rem;
+  min-inline-size: 0;
+}
